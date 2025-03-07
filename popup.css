@@ -1,0 +1,37 @@
+body {
+    width: 300px;
+    height: 300px;
+    background-color: #000;
+    color: #fff;
+    /* font-size: 20px; */
+}
+
+.option{
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+.toggle-outer {
+    background-color: #7c7c7c;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.toggle-inner {
+    background-color: #fff;
+    width: 40%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 5%;
+    transition: all 0.2s ease-out;
+}
